@@ -8,6 +8,7 @@
     color: black;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 24px 0;
 }
 
@@ -17,5 +18,21 @@
 .cabecalho-lista-item{
     display: inline-block;
     margin: 32px 16px;
-    font-size: 24px;
+    font-size: 24px;}
+
+.analistas-imagem{
+    width: 20%;
+}
+.texto{
+    background-image: linear-gradient(#D9D9D9,black);
+    display: flex;
+    justify-content: center;
+    padding: 36px 0;
+}
+.texto-div-conteudo{
+    width: 40%;
+    justify-content: center;
+}
+.apresentacao{
+    padding: 24px 0;
 }
